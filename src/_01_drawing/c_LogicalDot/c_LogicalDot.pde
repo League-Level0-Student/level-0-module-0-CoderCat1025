@@ -3,11 +3,12 @@ void setup() {
   
 // 1. Set the size of the sketch. Make it 600 pixels square. 
   
-
+size(600,600);
 }
 
 void draw() {
   
+  ellipse(300,300,200,200);
 // 2. Draw an ellipse
 // Run the program to make sure it works before moving on.
 
@@ -19,11 +20,11 @@ void draw() {
 if (mousePressed) {
  
    //  put one color here 
-  
+  fill(#3DDCFA);
 } else {
   
    // put a different color here
-  
+  fill(#F3FA3D);
 }  
   
   
